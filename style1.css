@@ -1,0 +1,103 @@
+.game{
+    background-color: rgb(136, 170, 199);
+    width: 18%;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding-bottom: 20px;
+    margin: 15px;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+body{
+    text-align: center;
+    background-color: rgb(193, 53, 221);
+}
+.game a{
+    color: rgb(70, 159, 236);
+    text-decoration: none;
+    background-color: rgb(100, 247, 56);
+    width: 125px;
+    display: inline-block;
+    border-radius: 15px;
+}
+h1{
+    color: rgb(189, 219, 245);
+}
+.menu a{
+    font-size: 20px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    color: rgb(178, 215, 248);
+    text-decoration: none;
+    box-shadow: 10px 10px 10px #ff0000;
+    margin: 20px;
+    padding: 12px;
+}
+.menu{
+    padding: 20px;
+}
+td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 30px 10px 10px 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+.basic{
+    background-color: #ff0f83;
+}
+.pro{
+    background-color: #0083f5;
+}
+.gold{
+    background-color: #6400de;
+}
+.platinum{
+    background-color: #fca103;
+}
+th{
+    padding-top: 30px; 
+    padding-left: 10px;
+    padding-right: 10px;   
+    padding-bottom: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 24px;
+    height: 150px;
+    color: #ffffff;
+}
+tr{
+    background-color: #ffffff;
+}
+.grey-bg{
+    background-color: #f5f5f5;
+}
+.price-text{
+    box-shadow: 1px 4px 8px #333232;
+    display: inline;
+    font-size: 20px;
+    padding: 15px;
+}
+.price{
+    height: 90px;
+    padding: 0;
+}
+.tariff{
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 1px 4px 6px #333232;
+    padding: 20px;
+    border-radius: 25px;
+    color: #ffffff;
+}
+caption{
+    font-size: 30px;
+}

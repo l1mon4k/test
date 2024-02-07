@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background-image: url(img/photo2.jpg);
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+.header-title{
+    font-size: 120px;
+    width: fit-content;
+    margin: auto;
+    
+}
+.black{
+    color: black;
+    position: relative;
+    top: 120px;
+    right: 20px;
+    z-index: 3;
+    animation: move 4s ease 0s infinite;
+}
+.red{
+    position: relative;
+    color: red;
+    opacity: 0.5;
+    z-index: 2;
+    animation: move 3s ease 1s infinite reverse;
+}
+.blue{
+    color: blue;
+    position: relative;
+    bottom: 120px;
+    left: 20px;
+    opacity: 0.5;
+    z-index: 1;
+    animation: move 3s ease 0s infinite reverse;
+}
+.header-btn-black{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    height: 50px;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    transition: 0.8s;
+}
+.header-btn-red{
+    background-color: red;
+    height: 50px;
+    width: 300px;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    z-index: 1;
+}
+.header-btn-blue{
+    background-color: blue;
+    height: 50px;
+    width: 300px;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -60%);
+    z-index: 2;
+}
+.header-btn-black:hover{
+    background-color: white;
+    color: black;
+}
+.article{
+    border: black 1px solid;
+    width: 50%;
+    margin: 50px auto ;
+}
+.title-article{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.category{
+    background-color: orange;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+.article-img{
+    width: 100%;
+}
+.article-text{
+    padding: 30px;
+}
+.btn-up{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.a_btn{
+    background-color:orange ;
+    padding: 12px;
+    box-shadow: 10px 10px 17px black;
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+    border: orange;
+}
+@keyframes move{
+    0%{
+        transform: translate(0, 0);
+    }
+    50%{
+        transform: translate(-20px, 20px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}

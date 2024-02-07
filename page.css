@@ -1,0 +1,67 @@
+.background{
+    background-image: url(img/123.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 100px;}
+.list{
+    background-color: black;
+    height: 10vh;
+    text-align: center;
+}
+.listlink{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+    transform: translateY(20px);
+    display: inline-block;
+}
+.game{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    height: 700px;
+    margin: 10px;
+    border-radius: 15px ;
+    display: inline-block;
+    opacity: 0.5;
+    filter: brightness(0.4);
+    transition: 1s;
+}
+.gamebtn{
+    border: white 1px solid;
+    border-radius: 12px;
+    color: white;
+    font-size: 30px;
+    transform: translateY(550px);
+    text-align: center;
+    display: inline-block;
+    background-color: orange;
+    padding: 25px;
+    width: 80%;
+}
+.csgo{
+    background-image: url(img/viza1.jpg);
+}
+.minecraft{
+    background-image: url(img/put`.jpg);
+}
+.among{
+    background-image: url(img/mesta.jpg);
+}
+.game:hover{
+    opacity: 1;
+    filter: none;
+    transform: scale(1.02);
+}
